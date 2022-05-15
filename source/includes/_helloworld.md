@@ -55,7 +55,7 @@ You'll find a complete machine-readbale example of a data product from the right
   ],
 "dataPipeline": {
   "infrastructure": {
-    "composer": "helm",
+    "containerTool": "helm",
     "format": "yaml",
     "status": "development",
     "scriptURL": "http://192.168.10.1/test/rundatapipeline.yml",
