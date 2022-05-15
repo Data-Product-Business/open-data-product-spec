@@ -11,7 +11,7 @@ Data Pipeline Object's purpose is enabling building, deploying, and running the 
   
 "dataPipeline": {
   "infrastructure": {
-    "composer": "helm",
+    "containerTool": "helm",
     "format": "yaml",
     "status": "development",
     "scriptURL": "http://192.168.10.1/test/rundatapipeline.yml",
@@ -33,7 +33,7 @@ Data Pipeline Object's purpose is enabling building, deploying, and running the 
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
 |---|---|---|---|
 | dataPipeline | element | - | Data Pipeline is a process whereby a data product pipeline deployment method is defined |
-| composer | string | any | A name of the package manager, composer or tool |
+| containerTool | string | any | A name of the package manager, container or infrastructure as a code tool |
 | format | string  | any |  Type of script language|
 | status | string  | Options: announcement, draft, development, testing, acceptance, production, sunset, retired |
 | scriptURL | URL | Valid URL  | 	The URL of the deployment script. |
