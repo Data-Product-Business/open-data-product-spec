@@ -148,7 +148,7 @@ Here's the list of attributes which can occur at the document root level. In the
   "description": "",
   "visibility": "private",
   "status": "draft",
-  "version": "0.1",
+  "versions": ["0.1"],
   "categories": ["pets"],
   "tags": ["pet"],
   "brandSlogan": "Passion for the data monetization",
@@ -164,7 +164,7 @@ Here's the list of attributes which can occur at the document root level. In the
 | description | string | - | The description of the product. Text only. |
 | categories| array | - | comma separates array of categories |
 | tags| array | - | comma separates array of tags |
-| version | string | The versioning scheme is **major.minor.**. Examples: 1.0, 2.1, 3.15 | The version of the product. |
+| versions | array | The versioning scheme is **major.minor.**. Examples: 1.0, 2.1, 3.15 | The version or versions of the product. |
 | logoURL| URL | Valid URL | Valid URL of the logo. See more from [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986). |
 | brandSlogan | string | - | Brand related slogan like Nike has *just do it* |
 
