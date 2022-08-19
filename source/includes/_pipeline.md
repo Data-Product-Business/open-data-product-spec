@@ -32,18 +32,18 @@ Data Pipeline Object's purpose is enabling building, deploying, and running the 
 ```
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
 |---|---|---|---|
-| dataPipeline | element | - | Data Pipeline is a process whereby a data product pipeline deployment method is defined |
-| containerTool | string | any | A name of the package manager, container or infrastructure as code tool |
-| format | string  | any |  Type of script language|
-| status | string  | Options: announcement, draft, development, testing, acceptance, production, sunset, retired |
+| dataPipeline | element | - | Data Pipeline is a process whereby a data product pipeline deployment method is defined. |
+| containerTool | string | any | A name of the package manager, container or infrastructure as code tool. |
+| format | string  | any |  Type of script language.|
+| status | string  | Options: announcement, draft, development, testing, acceptance, production, sunset, retired. |
 | scriptURL | URL | Valid URL  | 	The URL of the deployment script. |
-| deploymentDocumentationURL | URL | Valid URL  | 	The URL of the deployment documentation |
-| hashType| string | One of: SHA-1, SHA-2, SHA-3 | Type of secure hash algorithm for checksum |
-| checksum| string | any  | 	Script checksum |
-| DataAccess | element | - | Reference to the ability to use data |
-| type | string | One of: API, SQL, sFTP, gRPC  | 	Type of data access |
-| specification | string | any  | Type of the data access specification |
-| format | string | any  | 	File format |
-| specsURL | URL | Valid URL  | 	The URL of the specification |
-| dataAccessDocumentationURL | URL | Valid URL  | The URL of the data access documentation |
+| deploymentDocumentationURL | URL | Valid URL  | 	The URL of the deployment documentation. |
+| hashType| string | One of: SHA-1, SHA-2, SHA-3 | Type of secure hash algorithm for checksum. |
+| checksum| string | any  | 	Script checksum. |
+| DataAccess | element | - | Reference to the ability to use data. |
+| type | string | One of: API, SQL, sFTP, gRPC  | 	Type of data access. |
+| specification | string | any  | Type of the data access specification. |
+| format | string | any  | 	File format. |
+| specsURL | URL | Valid URL  | 	The URL of the specification. |
+| dataAccessDocumentationURL | URL | Valid URL  | The URL of the data access documentation. |
 
