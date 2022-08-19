@@ -130,11 +130,11 @@ Here's the list of attributes which can occur at the document root level. In the
 
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
 |---|---|---|---|
-| **name** | string | max length 256 chars | **REQUIRED**The name of the product. |
+| **name** | string | max length 256 chars | **REQUIRED** The name of the product. |
 | **productID**  | string | max length 256 chars | **REQUIRED** Product identifier. |
-| **visibility**  | one of | one of: private, organisation, public | **REQUIRED** The publicity level eg who can see this product. Private - just the creator. Organisation - visible to all in your organisation. Public - visible to all publicly |
+| **visibility**  | one of | one of: private, organisation, public | **REQUIRED** The publicity level eg who can see this product. Private - just the creator. Organisation - visible to all in your organisation. Public - visible to all publicly. |
 | **status**  | one of | one of: announcement, draft, development, testing, acceptance, production, sunset, retired | **REQUIRED** The status of the product. Lifecycle model discussed in details in here (link). |
-| **type** | one of |  Options: raw data, derived data, dataset, reports, analytic view, 3D visualisation, algorithm, decision support, automated decision-making, data-enhanced product, data-driven service, data-enabled performance, bi-directional | **REQUIRED** The type of the product. Options are derived from examples and lists found from academic literature  | 
+| **type** | one of |  Options: raw data, derived data, dataset, reports, analytic view, 3D visualisation, algorithm, decision support, automated decision-making, data-enhanced product, data-driven service, data-enabled performance, bi-directional. | **REQUIRED** The type of the product. Options are derived from examples and lists found from academic literature.  | 
 
 
 ## Optional attributes
