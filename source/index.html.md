@@ -162,10 +162,10 @@ Here's the list of attributes which can occur at the document root level. In the
 |---|---|---|---|
 | valueProposition | string  | text content, max length 512 chars  | This is the product's value proposition. Often one or two sentences and crystallizes the value for the customer. |
 | description | string | - | The description of the product. Text only. |
-| categories| array | - | comma separates array of categories |
-| tags| array | - | comma separates array of tags |
+| categories| array | - | Comma separates array of categories. |
+| tags| array | - | Comma separates array of tags. |
 | version | string | The versioning scheme is **major.minor.**. Examples: 1.0, 2.1, 3.15 | The version of the product. |
 | logoURL| URL | Valid URL | Valid URL of the logo. See more from [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986). |
-| brandSlogan | string | - | Brand related slogan like Nike has *just do it* |
+| brandSlogan | string | - | Brand related slogan like Nike has *just do it*. |
 
 <button data-tf-popup="Q1Zo6wE5" data-tf-iframe-props="title=Customer Feedback Survey" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#FA6B05;color:#000000;font-size:17px;border-radius:3px;padding:0 28px;font-weight:bold;height:42.5px;cursor:pointer;line-height:42.5px;text-align:center;margin:0;text-decoration:none;">Raise an issue</button><script src="//embed.typeform.com/next/embed.js"></script>
