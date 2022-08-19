@@ -12,7 +12,7 @@ The data product may be exploited e.g. by licensing its use and exploitation to 
          "definition": "The purpose of this license is to determine the terms and conditions applicable to the licensing of the data product, whereby Data Holder grants Data User the right to use the data.",
          "language": "en-us",
          "permanent": false,
-         "terminationContitions": "Cancellation before 30 days.",
+         "terminationContitions": "Cancellation before 30 days. After the expiry of the right of use, the product and its derivatives must be removed.",
          "continuityConditions": "Expired license will automatically continued without written cancellation (termination) by Data Holder",
          "restrictions": "Data User agrees not to, directly or indirectly, participate in the unauthorized use, disclosure or conversion of any confidential information.",      
          "geographicalArea": [ 
@@ -39,22 +39,22 @@ The data product may be exploited e.g. by licensing its use and exploitation to 
 ```
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
 |---|---|---|---|
-| scope | element | - |  Extent, range, coverage, area or space of the license |
-| definition | string | text content, max length 512 chars  | Background and purpose of the license |
-| language | string | ISO 639-1 standard language codes | License language |
-| permanent | boolean | true/false|  License with no expiration date |
-| termitationConditions | string | text content, max length 512 chars | Cancellation conditions of the license |
-| continuityConditions | string |  text content, max length 512 chars | Continuity conditions of the license |
-| restrictions | string | text content, max length 512 chars  | Restrictions of the license |
-| geographicalArea | string |  ISO 3166-1 alpha-2 codes | License right restricted to the geographical area |
-| modificationRights | boolean | true/false | Data modification rights |
-| resellingRights | boolean | true/false | Reselling rights |
-| governance | element | - | Governance is the approach taken to ensure that the agreed outcomes are being fulfilled |
-| containsPersonalData | boolean | true/false | Data contains personal data |
-| dpaURL| URL| valid URL | The URL of the Data Processing Agreement (DPA) |
-| audit | string | text content, max length 512 chars | License auditing terms |
-| warranties | string | text content, max length 512 chars | License warranties |
+| scope | element | - |  Extent, range, coverage, area or space of the license. |
+| definition | string | text content, max length 512 chars  | Background and purpose of the license. |
+| language | string | ISO 639-1 standard language codes | License language. |
+| permanent | boolean | true/false|  License with no expiration date. |
+| termitationConditions | string | text content, max length 512 chars | Cancellation conditions of the license. |
+| continuityConditions | string |  text content, max length 512 chars | Continuity conditions of the license. |
+| restrictions | string | text content, max length 512 chars  | Restrictions of the license. |
+| geographicalArea | string |  ISO 3166-1 alpha-2 codes | License right restricted to the geographical area. |
+| modificationRights | boolean | true/false | Data modification rights. |
+| resellingRights | boolean | true/false | Reselling rights. |
+| governance | element | - | Governance is the approach taken to ensure that the agreed outcomes are being fulfilled. |
+| containsPersonalData | boolean | true/false | Data contains personal data. |
+| dpaURL| URL| valid URL | The URL of the Data Processing Agreement (DPA). |
+| audit | string | text content, max length 512 chars | License auditing terms. |
+| warranties | string | text content, max length 512 chars | License warranties. |
 | forceMajeure | string | text content, max length 512 chars | Force Majeure |
-| damages| string | text content, max length 512 chars | Damages refers to the sum of money (i.e. indemnifications) for a breach of some duty or violation of license right |
-| confidentiality | string | text content, max length 512 chars| Restrictions and requirements imposed on the Data User regarding e.g. the use and disclosure of the Data Holder's confidential information |
-| applicableLaws | string | text content, max length 512 chars | Applicable laws, i.e local acts, degrees or law |
+| damages| string | text content, max length 512 chars | Damages refers to the sum of money (i.e. indemnifications) for a breach of some duty or violation of license right. |
+| confidentiality | string | text content, max length 512 chars| Restrictions and requirements imposed on the Data User regarding e.g. the use and disclosure of the Data Holder's confidential information. |
+| applicableLaws | string | text content, max length 512 chars | Applicable laws, i.e local acts, degrees or law. |
