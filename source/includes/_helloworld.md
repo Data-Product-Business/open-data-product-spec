@@ -119,7 +119,7 @@ You'll find a complete machine-readbale example of a data product from the right
       "definition": "The purpose of this license is to determine the terms and conditions applicable to the licensing of the data product, whereby Data Holder grants Data User the right to use the data.",
       "language": "en-us",
       "permanent": false,
-      "terminationContitions": "Cancellation before 30 days.",
+      "terminationContitions": "Cancellation before 30 days. After the expiry of the right of use, the product and its derivatives must be removed.",
       "continuityConditions": "Expired license will automatically continued without written cancellation (termination) by Data Holder",
       "restrictions": "Data User agrees not to, directly or indirectly, participate in the unauthorized use, disclosure or conversion of any confidential information.",
       "geographicalArea": [
