@@ -2,7 +2,7 @@
 name: Improvement idea
 about: Create a report to help us improve
 title: ''
-labels: 'improvement-idea'
+labels: 'unprocessed,enhancement
 assignees: ''
 
 ---
