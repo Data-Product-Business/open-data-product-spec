@@ -44,7 +44,7 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 
 **Latest version source:**
 
-* <a href="https://github.com/Data-Product-Business/open-data-product-spec">https://github.com/Data-Product-Business/open-data-product-spec</a>
+* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec">https://github.com/Open-Data-Product-Initiative/open-data-product-spec</a>
 
 **Editors:**
 
