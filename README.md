@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://Open-Data-Product-Initiative.github.io/open-data-product-spec/images/logo-dps-ebd5a97d.png" alt="Open Data Product Specification" width="500">/
+  <img src="https://opendataproducts.org/images/logo-dps-new-4bb33ca5.png" alt="Open Data Product Specification" width="500">/
 </p>
 
 Features
