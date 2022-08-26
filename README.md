@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://data-product-business.github.io/open-data-product-spec/images/logo-dps-ebd5a97d.png" alt="Open Data Product Specification" width="500">/
+  <img src="https://opendataproducts.org/images/logo-dps-new-4bb33ca5.png" alt="Open Data Product Specification" width="300">/
 </p>
 
 Features
@@ -19,7 +19,7 @@ Specification aims
 **Note!** In the "Open Data Product" focus is on the latter words and the prefix 'open' refers to openness of the standard. Any kind of connotations to open data (different thing) are not intentional, intended or desirable. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Data-Product-Business/open-data-product-spec/main/source/images/datapipeline-hydra.jpg" alt="Open Data Product Specification usage in data value chain" width="800">/
+  <img src="https://raw.githubusercontent.com/Open-Data-Product-Initiative/open-data-product-spec/main/source/images/datapipeline-hydra.jpg" alt="Open Data Product Specification usage in data value chain" width="800">/
 </p>
 
 
@@ -32,9 +32,9 @@ Companies Using Open Data Product Specification
 Questions? Need Help? Found a bug?
 --------------------
 
-If you've got questions about setup, deploying, special feature implementation in your fork, or just want to chat with the developer, please feel free to [start a thread in our Discussions tab](https://github.com/Data-Product-Business/open-data-product-spec/discussions)!
+If you've got questions about setup, deploying, special feature implementation in your fork, or just want to chat with the developer, please feel free to [start a thread in our Discussions tab](https://github.com/Open-Data-Product-Initiative/open-data-product-spec/discussions)!
 
-Found a bug with upstream Slate? Go ahead and [submit an issue](https://github.com/Data-Product-Business/open-data-product-spec/issues). And, of course, feel free to submit pull requests with bug fixes or changes to the `dev` branch.
+Found a bug with upstream Slate? Go ahead and [submit an issue](https://github.com/Open-Data-Product-Initiative/open-data-product-spec/issues). And, of course, feel free to submit pull requests with bug fixes or changes to the `dev` branch.
 
 Contributors
 --------------------
