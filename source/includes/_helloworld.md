@@ -55,6 +55,9 @@ You'll find a complete machine-readbale example of a data product from the right
   ],
 "dataPipeline": {
   "infrastructure": {
+    "platform": "AWS",
+    "technology": "Amazon S3",
+    "storageType": "files",
     "containerTool": "helm",
     "format": "yaml",
     "status": "development",
