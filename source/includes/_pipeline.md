@@ -11,6 +11,9 @@ Data Pipeline Object's purpose is enabling building, deploying, and running the 
   
 "dataPipeline": {
   "infrastructure": {
+    "platform": "AWS",
+    "technology": "Amazon S3",
+    "storageType": "files",
     "containerTool": "helm",
     "format": "yaml",
     "status": "development",
@@ -33,6 +36,9 @@ Data Pipeline Object's purpose is enabling building, deploying, and running the 
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
 |---|---|---|---|
 | dataPipeline | element | - | Data Pipeline is a process whereby a data product pipeline deployment method is defined. |
+| platform | string | any | Platform infrastructure, such as AWS, GCP, Azure. |
+| technology | string | any | Describes the internal storage area technology, such as Amazon S3, Google Cloud Storage, Azure Blob Storage. |
+| storageType | string | any | Describes the internal storage type, such as files, sql, events, MQTT, etc. |
 | containerTool | string | any | A name of the package manager, container or infrastructure as code tool. |
 | format | string  | any |  Type of script language.|
 | status | string  | Options: announcement, draft, development, testing, acceptance, production, sunset, retired. |
