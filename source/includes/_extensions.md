@@ -2,7 +2,7 @@
 
 While the Open Data Product Specification tries to accommodate most use cases, additional data can be added to extend the specification at certain points.
 
-The extensions properties are implemented as patterned fields that are always prefixed by "x-". The extensions may or may not be supported by the available tooling, but those may be extended as well to add requested support (if tools are internal or open-sourced).
+The extensions properties are implemented as patterned fields that are always prefixed by "x-". The extensions may or may not be supported by the available tooling, but those may be extended as well to add requested support (if tools are internal or open-sourced). Open Data Product Initiative Technical Steering Committee does not officially approve external extensions - they are fully independent. Popular extensions however are natural candidates for future additions of the standard. 
 
 
 
