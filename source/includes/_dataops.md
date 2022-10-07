@@ -22,16 +22,7 @@ DataOps Object's purpose is enabling building, deploying, and running the data p
     "hashType": "SHA-2",
     "checksum": "7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921"
   }
-}, 
-  "dataAccess" {
-    "type": "API",
-    "specification": "OAS",
-    "format": "JSON",
-    "specURL": "https://swagger.com/petstore.json",
-    "dataAccessDocumentationURL": "http://192.168.10.1/test/docs/dataaccess"
-  }
 }
-
   
 ```
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
@@ -47,10 +38,4 @@ DataOps Object's purpose is enabling building, deploying, and running the data p
 | deploymentDocumentationURL | URL | Valid URL  | 	The URL of the deployment documentation. |
 | hashType| string | One of: SHA-1, SHA-2, SHA-3 | Type of secure hash algorithm for checksum. |
 | checksum| string | any  | 	Script checksum. |
-| DataAccess | element | - | Reference to the ability to use data. |
-| type | string | One of: API, SQL, sFTP, gRPC  | 	Type of data access. |
-| specification | string | any  | Type of the data access specification. |
-| format | string | any  | 	File format. |
-| specsURL | URL | Valid URL  | 	The URL of the specification. |
-| dataAccessDocumentationURL | URL | Valid URL  | The URL of the data access documentation. |
 
