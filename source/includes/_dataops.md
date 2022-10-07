@@ -1,6 +1,5 @@
 # DataOps
 
-
 DataOps is a process whereby a data product pipeline deployment method is defined. Usually the deployment script contains the logic of the individual steps as well as the code chaining the steps together.
 
 DataOps Object's purpose is enabling building, deploying, and running the data product’s code, and storing and giving access to data and metadata. This priciple has been adopted from the [Data Mesh](https://towardsdatascience.com/what-is-a-data-mesh-and-how-not-to-mesh-it-up-210710bb41e0).
@@ -38,4 +37,3 @@ DataOps Object's purpose is enabling building, deploying, and running the data p
 | deploymentDocumentationURL | URL | Valid URL  | 	The URL of the deployment documentation. |
 | hashType| string | One of: SHA-1, SHA-2, SHA-3 | Type of secure hash algorithm for checksum. |
 | checksum| string | any  | 	Script checksum. |
-
