@@ -1567,162 +1567,161 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <p>Example of complete working Data Product specification instance:</p>
 </blockquote>
 <div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="p">{</span>
-  <span class="dl">"</span><span class="s2">Product</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Pets of the year</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">productID</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">123456are</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">description</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">visibility</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">private</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">status</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">draft</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">version</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.1</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">categories</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">pets</span><span class="dl">"</span><span class="p">],</span>
-    <span class="dl">"</span><span class="s2">tags</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">pet</span><span class="dl">"</span><span class="p">],</span>
-    <span class="dl">"</span><span class="s2">brandSlogan</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Passion for the data monetization</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">derived data</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">logoURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://data-product-business.github.io/open-data-product-spec/images/logo-dps-ebd5a97d.png</span><span class="dl">"</span>
-  <span class="p">},</span>
-  <span class="dl">"</span><span class="s2">pricing</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span>
-    <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Premium subscription 1 year</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EUR</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">50.00</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">year</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">recurring</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">unlimited</span><span class="dl">"</span>
+    <span class="dl">"</span><span class="s2">Product</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Pets of the year</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">productID</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">123456are</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">description</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">visibility</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">private</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">status</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">draft</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">version</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.1</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">categories</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">pets</span><span class="dl">"</span><span class="p">],</span>
+        <span class="dl">"</span><span class="s2">tags</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">pet</span><span class="dl">"</span><span class="p">],</span>
+        <span class="dl">"</span><span class="s2">brandSlogan</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Passion for the data monetization</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">derived data</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">logoURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://data-product-business.github.io/open-data-product-spec/images/logo-dps-ebd5a97d.png</span><span class="dl">"</span>
     <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Premium Package Monthly</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EUR</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">5.00</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">month</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">recurring</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="mi">10000</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Freemium Package</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EUR</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.00</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">month</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">recurring</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1000</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Revenue sharing</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">percentage</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">5.50</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">month</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">revenue-sharing</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="mi">20000</span>
-    <span class="p">}</span>
-  <span class="p">],</span>
+    <span class="dl">"</span><span class="s2">pricing</span><span class="dl">"</span><span class="p">:</span> <span class="p">[{</span>
+            <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Premium subscription 1 year</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EUR</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">50.00</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">year</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">recurring</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">unlimited</span><span class="dl">"</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Premium Package Monthly</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EUR</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">5.00</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">month</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">recurring</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="mi">10000</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Freemium Package</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EUR</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.00</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">month</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">recurring</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1000</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Revenue sharing</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">priceCurrency</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">percentage</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">price</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">5.50</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">billingDuration</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">month</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">revenue-sharing</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">maxTransactionQuantity</span><span class="dl">"</span><span class="p">:</span> <span class="mi">20000</span>
+        <span class="p">}</span>
+    <span class="p">],</span>
 
-<span class="dl">"</span><span class="s2">dataOps</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-  <span class="dl">"</span><span class="s2">infrastructure</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">platform</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">storageTechnology</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure SQL</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">storageType</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">sql</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">containerTool</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">helm</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">yaml</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">status</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">development</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">scriptURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/rundatapipeline.yml</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">deploymentDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/datapipeline</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">hashType</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">SHA-2</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">checksum</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921</span><span class="dl">"</span>
-  <span class="p">},</span>
-    <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">JSON</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://swagger.com/petstore.json</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">dataAccessDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/test/docs/dataaccess</span><span class="dl">"</span>
-  <span class="p">},</span>  
-  <span class="dl">"</span><span class="s2">SLA</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">updateFrequency</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">hours</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="dl">"</span><span class="s2">dataOps</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">infrastructure</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">platform</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">storageTechnology</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure SQL</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">storageType</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">sql</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">containerTool</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">helm</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">yaml</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">status</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">development</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">scriptURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/rundatapipeline.yml</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">deploymentDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/datapipeline</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">hashType</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">SHA-2</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">checksum</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921</span><span class="dl">"</span>
+        <span class="p">}</span>
     <span class="p">},</span>
-    <span class="dl">"</span><span class="s2">uptime</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">percentage</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mi">99</span>
+    <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">JSON</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://swagger.com/petstore.json</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">dataAccessDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/test/docs/dataaccess</span><span class="dl">"</span>
     <span class="p">},</span>
-    <span class="dl">"</span><span class="s2">responseTime</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">milliseconds</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mi">200</span>
+    <span class="dl">"</span><span class="s2">SLA</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">updateFrequency</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">hours</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1</span>
+        <span class="p">},</span>
+        <span class="dl">"</span><span class="s2">uptime</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">percentage</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mi">99</span>
+        <span class="p">},</span>
+        <span class="dl">"</span><span class="s2">responseTime</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">milliseconds</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mi">200</span>
+        <span class="p">},</span>
+        <span class="dl">"</span><span class="s2">nullValues</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">percentage</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mf">0.01</span>
+        <span class="p">},</span>
+        <span class="dl">"</span><span class="s2">support</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">company</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+                <span class="dl">"</span><span class="s2">phoneNumber</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">phoneServiceHours</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">chatURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">chatServiceHours</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">chatResponseTime</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">email</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">emailServiceHours</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">emailResponseTime</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">documentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">guidesURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span>
+            <span class="p">},</span>
+            <span class="dl">"</span><span class="s2">community</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+                <span class="dl">"</span><span class="s2">stackoverflowURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">forumURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">slackURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">twitterURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="dl">"</span><span class="s2">observability</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">logsURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://logs.com</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">dashboardURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://dashboard.com</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">uptimeURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://uptime.com</span><span class="dl">"</span>
+        <span class="p">}</span>
     <span class="p">},</span>
-    <span class="dl">"</span><span class="s2">nullValues</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">unit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">percentage</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">:</span> <span class="mf">0.01</span>
+    <span class="dl">"</span><span class="s2">license</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">scope</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">definition</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">The purpose of this license is to determine the terms and conditions applicable to the licensing of the data product, whereby Data Holder grants Data User the right to use the data.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">language</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">en-us</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">permanent</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">terminationContitions</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Cancellation before 30 days. After the expiry of the right of use, the product and its derivatives must be removed.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">continuityConditions</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Expired license will automatically continued without written cancellation (termination) by Data Holder</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">restrictions</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data User agrees not to, directly or indirectly, participate in the unauthorized use, disclosure or conversion of any confidential information.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">geographicalArea</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span>
+                <span class="dl">"</span><span class="s2">EU</span><span class="dl">"</span><span class="p">,</span>
+                <span class="dl">"</span><span class="s2">US</span><span class="dl">"</span>
+            <span class="p">],</span>
+            <span class="dl">"</span><span class="s2">modificationRight</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">resellingRight</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span>
+        <span class="p">},</span>
+        <span class="dl">"</span><span class="s2">governance</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="dl">"</span><span class="s2">containsPersonalData</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">dpaURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/dpaconditions</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">audit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data Holder will reasonably cooperate with Data User by providing available additional information concerning the data product. Each party will bear its own costs with respect to the audit procedures.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">warranties</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data Holder makes no warranties, express or implied, guarantees or conditions with respect to your use of the data product. To the extent permitted under local law, Data Holder disclaims all liability for any damages or losses, including direct, consequential, special, indirect, incidental or punitive, resulting from Data User use of the data product.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">forceMajeure</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Each party may suspend the fulfilment of its contractual obligations, when the said fulfilment is impossible or objectively too costly due to an unforeseeable impediment independent from the parties, such as for example: strike, boycott, lockout, fire, war (declared or not), civil war, riots and revolutions, requisitions, embargo, power blackouts, extraordinary breakage of machinery, delays in the delivery of components or raw materials.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">damages</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">During the term of license, except for the force majeure or the Data Holders reasons, Data User is required to follow strictly in accordance with the license. If Data User wants to terminate the license early, it needs to pay a certain amount of liquidated damages.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">confidentiality</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data User undertakes to maintain confidentiality as regards all information of a technical (such as, by way of a non-limiting example, drawings, tables, documentation, formulas and correspondence) and commercial nature (including contractual conditions, prices, payment conditions) gained during the performance of this license.</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">applicableLaws</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">This license shall be interpreted, construed and enforced in accordance with the law of Finland, Incl. Copyright Act 404/1961.</span><span class="dl">"</span>
+        <span class="p">}</span>
     <span class="p">},</span>
-    <span class="dl">"</span><span class="s2">support</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">company</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-        <span class="dl">"</span><span class="s2">phoneNumber</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">phoneServiceHours</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">chatURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">chatServiceHours</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">chatResponseTime</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">email</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">emailServiceHours</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">emailResponseTime</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">documentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">guidesURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span>
-      <span class="p">},</span>
-      <span class="dl">"</span><span class="s2">community</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-        <span class="dl">"</span><span class="s2">stackoverflowURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">forumURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">slackURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">twitterURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span>
-      <span class="p">}</span>
-    <span class="p">},</span>
-    <span class="dl">"</span><span class="s2">observability</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">logsURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://logs.com</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">dashboardURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://dashboard.com</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">uptimeURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://uptime.com</span><span class="dl">"</span>
+    <span class="dl">"</span><span class="s2">dataHolder</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">taxID</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">12243434-12</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">vatID</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">12243434-12</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">logoURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://mindmote.fi/logo.png</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">description</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Digital Economy services and tools</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">URL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://mindmote.fi</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">telephone</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">+35845 0232 2323</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">streetAddress</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Koulukatu 1</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">postalCode</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">33100</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">addressRegion</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Pirkanmaa</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">addressLocality</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Tampere</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">addressCountry</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Finland</span><span class="dl">"</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">aggregateRating</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">ratingCount</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1245</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">slogan</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
+        <span class="dl">"</span><span class="s2">parentOrganization</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span>
     <span class="p">}</span>
-  <span class="p">},</span>
-  <span class="dl">"</span><span class="s2">license</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">scope</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-      <span class="dl">"</span><span class="s2">definition</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">The purpose of this license is to determine the terms and conditions applicable to the licensing of the data product, whereby Data Holder grants Data User the right to use the data.</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">language</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">en-us</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">permanent</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">terminationContitions</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Cancellation before 30 days. After the expiry of the right of use, the product and its derivatives must be removed.</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">continuityConditions</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Expired license will automatically continued without written cancellation (termination) by Data Holder</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">restrictions</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data User agrees not to, directly or indirectly, participate in the unauthorized use, disclosure or conversion of any confidential information.</span><span class="dl">"</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">geographicalArea</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span>
-        <span class="dl">"</span><span class="s2">EU</span><span class="dl">"</span><span class="p">,</span>
-        <span class="dl">"</span><span class="s2">US</span><span class="dl">"</span>
-      <span class="p">],</span>
-      <span class="dl">"</span><span class="s2">modificationRight</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-      <span class="dl">"</span><span class="s2">resellingRight</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span>
-    <span class="p">},</span>
-    <span class="dl">"</span><span class="s2">governance</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-         <span class="dl">"</span><span class="s2">containsPersonalData</span><span class="dl">"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-         <span class="dl">"</span><span class="s2">dpaURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/dpaconditions</span><span class="dl">"</span><span class="p">,</span>
-         <span class="dl">"</span><span class="s2">audit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data Holder will reasonably cooperate with Data User by providing available additional information concerning the data product. Each party will bear its own costs with respect to the audit procedures.</span><span class="dl">"</span><span class="p">,</span>
-         <span class="dl">"</span><span class="s2">warranties</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data Holder makes no warranties, express or implied, guarantees or conditions with respect to your use of the data product. To the extent permitted under local law, Data Holder disclaims all liability for any damages or losses, including direct, consequential, special, indirect, incidental or punitive, resulting from Data User use of the data product.</span><span class="dl">"</span><span class="p">,</span>
-         <span class="dl">"</span><span class="s2">forceMajeure</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Each party may suspend the fulfilment of its contractual obligations, when the said fulfilment is impossible or objectively too costly due to an unforeseeable impediment independent from the parties, such as for example: strike, boycott, lockout, fire, war (declared or not), civil war, riots and revolutions, requisitions, embargo, power blackouts, extraordinary breakage of machinery, delays in the delivery of components or raw materials.</span><span class="dl">"</span><span class="p">,</span>
-         <span class="dl">"</span><span class="s2">damages</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">During the term of license, except for the force majeure or the Data Holders reasons, Data User is required to follow strictly in accordance with the license. If Data User wants to terminate the license early, it needs to pay a certain amount of liquidated damages.</span><span class="dl">"</span><span class="p">,</span>
-         <span class="dl">"</span><span class="s2">confidentiality</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Data User undertakes to maintain confidentiality as regards all information of a technical (such as, by way of a non-limiting example, drawings, tables, documentation, formulas and correspondence) and commercial nature (including contractual conditions, prices, payment conditions) gained during the performance of this license.</span><span class="dl">"</span><span class="p">,</span> 
-         <span class="dl">"</span><span class="s2">applicableLaws</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">This license shall be interpreted, construed and enforced in accordance with the law of Finland, Incl. Copyright Act 404/1961.</span><span class="dl">"</span>
-    <span class="p">}</span>
-  <span class="p">},</span>
-  <span class="dl">"</span><span class="s2">dataHolder</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">taxID</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">12243434-12</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">vatID</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">12243434-12</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">logoURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://mindmote.fi/logo.png</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">description</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Digital Economy services and tools</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">URL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://mindmote.fi</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">telephone</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">+35845 0232 2323</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">streetAddress</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Koulukatu 1</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">postalCode</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">33100</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">addressRegion</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Pirkanmaa</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">addressLocality</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Tampere</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">addressCountry</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Finland</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">aggregateRating</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">ratingCount</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1245</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">slogan</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">parentOrganization</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span>
-  <span class="p">}</span>
 <span class="p">}</span>
-
 </code></pre></div><h1 id='terms-used'>Terms used</h1>
 <p>Here&#39;s list of terms used and what we mean with them. The meaning of terms is mostly taken from existing knowledge eg articles and other trusted sources. The source is always linked to the term. In some rare cases term is defined for the specification purposes only. </p>
 
