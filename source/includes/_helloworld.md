@@ -53,6 +53,7 @@ You'll find a complete machine-readbale example of a data product from the right
       "maxTransactionQuantity": 20000
     }
   ],
+  
 "dataOps": {
   "infrastructure": {
     "platform": "Azure",
@@ -72,8 +73,7 @@ You'll find a complete machine-readbale example of a data product from the right
     "format": "JSON",
     "specURL": "https://swagger.com/petstore.json",
     "dataAccessDocumentationURL": "http://192.168.10.1/test/docs/dataaccess"
-  }
-},  
+  },  
   "SLA": {
     "updateFrequency": {
       "unit": "hours",
