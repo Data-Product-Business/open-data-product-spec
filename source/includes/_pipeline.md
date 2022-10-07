@@ -1,27 +1,28 @@
-# Data Pipeline
+# DataOps
 
 
-Data Pipeline is a process whereby a data product pipeline deployment method is defined. Usually the deployment script contains the logic of the individual steps as well as the code chaining the steps together.
+DataOps is a process whereby a data product pipeline deployment method is defined. Usually the deployment script contains the logic of the individual steps as well as the code chaining the steps together.
 
-Data Pipeline Object's purpose is enabling building, deploying, and running the data product’s code, and storing and giving access to data and metadata. This priciple has been adopted from the [Data Mesh](https://towardsdatascience.com/what-is-a-data-mesh-and-how-not-to-mesh-it-up-210710bb41e0).
+DataOps Object's purpose is enabling building, deploying, and running the data product’s code, and storing and giving access to data and metadata. This priciple has been adopted from the [Data Mesh](https://towardsdatascience.com/what-is-a-data-mesh-and-how-not-to-mesh-it-up-210710bb41e0).
 
-> Example of Data Pipeline component usage:
+> Example of DataOps component usage:
 
 ```javascript
   
-"dataPipeline": {
+"dataOps": {
   "infrastructure": {
-    "platform": "AWS",
-    "storageTechnology": "Amazon S3",
-    "storageType": "files",
+    "platform": "Azure",
+    "storageTechnology": "Azure SQL",
+    "storageType": "sql",
     "containerTool": "helm",
     "format": "yaml",
     "status": "development",
-    "scriptURL": "http://192.168.10.1/test/rundatapipeline.yml",
-    "deploymentDocumentationURL": "http://192.168.10.1/test/docs/datapipeline",
+    "scriptURL": "http://192.168.10.1/rundatapipeline.yml",
+    "deploymentDocumentationURL": "http://192.168.10.1/datapipeline",
     "hashType": "SHA-2",
     "checksum": "7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921"
-  }, 
+  }
+}, 
   "dataAccess" {
     "type": "API",
     "specification": "OAS",
@@ -35,7 +36,7 @@ Data Pipeline Object's purpose is enabling building, deploying, and running the 
 ```
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
 |---|---|---|---|
-| dataPipeline | element | - | Data Pipeline is a process whereby a data product pipeline deployment method is defined. |
+| dataOps | element | - | DataOps is a process whereby a data product pipeline deployment method is defined. |
 | platform | string | any | Platform infrastructure, such as AWS, GCP, Azure. |
 | storageTechnology | string | any | Describes the internal storage area technology, such as Amazon S3, Google Cloud Storage, Azure Blob Storage. |
 | storageType | string | any | Describes the internal storage type, such as files, sql, events, MQTT. |
