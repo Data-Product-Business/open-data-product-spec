@@ -922,12 +922,13 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <p>Example of Data Access component usage:</p>
 </blockquote>
 <div class="highlight"><pre class="highlight javascript tab-javascript"><code>
-  <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
+ <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+  <span class="dl">"</span><span class="s2">interface</span><span class="dl">"</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">outputPorttype</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">JSON</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://swagger.com/petstore.json</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">dataAccessDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/test/docs/dataaccess</span><span class="dl">"</span>
+    <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://192.168.10.1/petstore.json</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">documentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/petshop</span><span class="dl">"</span>
   <span class="p">}</span>
 <span class="p">}</span>
 
@@ -941,13 +942,13 @@ The JSON examples are not based on any real data product, but exemplify the usag
 </tr>
 </thead><tbody>
 <tr>
-<td>dataAccess</td>
+<td>interface</td>
 <td>element</td>
 <td>-</td>
 <td>Reference to the ability to use data.</td>
 </tr>
 <tr>
-<td>type</td>
+<td>outputPorttype</td>
 <td>string</td>
 <td>One of: API, SQL, sFTP, gRPC</td>
 <td>Type of data access.</td>
@@ -971,7 +972,7 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <td>The URL of the specification.</td>
 </tr>
 <tr>
-<td>dataAccessDocumentationURL</td>
+<td>documentationURL</td>
 <td>URL</td>
 <td>Valid URL</td>
 <td>The URL of the data access documentation.</td>
