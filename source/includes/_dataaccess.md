@@ -2,7 +2,6 @@
 
 Data access is the authorised ability to retrieve, edit, copy or transfer data from IT systems.
 
-
 > Example of Data Access component usage:
 
 ```javascript
@@ -15,7 +14,6 @@ Data access is the authorised ability to retrieve, edit, copy or transfer data f
     "dataAccessDocumentationURL": "http://192.168.10.1/test/docs/dataaccess"
   }
 }
-
   
 ```
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
@@ -26,4 +24,3 @@ Data access is the authorised ability to retrieve, edit, copy or transfer data f
 | format | string | any  | 	File format. |
 | specsURL | URL | Valid URL  | 	The URL of the specification. |
 | dataAccessDocumentationURL | URL | Valid URL  | The URL of the data access documentation. |
-
