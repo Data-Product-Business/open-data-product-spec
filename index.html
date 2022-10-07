@@ -370,6 +370,9 @@
             <a href="#dataops" class="toc-h1 toc-link" data-title="DataOps">DataOps</a>
           </li>
           <li>
+            <a href="#data-access" class="toc-h1 toc-link" data-title="Data Access">Data Access</a>
+          </li>
+          <li>
             <a href="#data-sla" class="toc-h1 toc-link" data-title="Data SLA">Data SLA</a>
               <ul class="toc-list-h2">
                   <li>
@@ -834,16 +837,7 @@ The JSON examples are not based on any real data product, but exemplify the usag
     <span class="dl">"</span><span class="s2">hashType</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">SHA-2</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">checksum</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921</span><span class="dl">"</span>
   <span class="p">}</span>
-<span class="p">},</span> 
-  <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">JSON</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://swagger.com/petstore.json</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">dataAccessDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/test/docs/dataaccess</span><span class="dl">"</span>
-  <span class="p">}</span>
 <span class="p">}</span>
-
 
 </code></pre></div>
 <table><thead>
@@ -920,8 +914,34 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <td>any</td>
 <td>Script checksum.</td>
 </tr>
+</tbody></table>
+<h1 id='data-access'>Data Access</h1>
+<p>Data access is the authorised ability to retrieve, edit, copy or transfer data from IT systems.</p>
+
+<blockquote>
+<p>Example of Data Access component usage:</p>
+</blockquote>
+<div class="highlight"><pre class="highlight javascript tab-javascript"><code>
+  <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">JSON</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://swagger.com/petstore.json</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">dataAccessDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/test/docs/dataaccess</span><span class="dl">"</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre></div>
+<table><thead>
 <tr>
-<td>DataAccess</td>
+<th><div style="width:150px">Element name</div></th>
+<th>Type</th>
+<th>Options</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>dataAccess</td>
 <td>element</td>
 <td>-</td>
 <td>Reference to the ability to use data.</td>
