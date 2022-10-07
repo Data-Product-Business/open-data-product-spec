@@ -26,7 +26,7 @@ DataOps Object's purpose is enabling building, deploying, and running the data p
 ```
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
 |---|---|---|---|
-| dataOps | element | - | DataOps is a process whereby a data product pipeline deployment method is defined. |
+| infrastructure | element | - | Infrastructure is a process whereby a data product pipeline deployment method is defined. |
 | platform | string | any | Platform infrastructure, such as AWS, GCP, Azure. |
 | storageTechnology | string | any | Describes the internal storage area technology, such as Amazon S3, Google Cloud Storage, Azure Blob Storage. |
 | storageType | string | any | Describes the internal storage type, such as files, sql, events, MQTT. |
