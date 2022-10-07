@@ -28,7 +28,7 @@ DataOps Object's purpose is enabling building, deploying, and running the data p
 |---|---|---|---|
 | infrastructure | element | - | Infrastructure is a process whereby a data product pipeline deployment method is defined. |
 | platform | string | any | Platform infrastructure, such as AWS, GCP, Azure. |
-| storageTechnology | string | any | Describes the internal storage area technology, such as Amazon S3, Google Cloud Storage, Azure Blob Storage. |
+| storageTechnology | string | any | Describes the internal storage area technology, such as Amazon S3, Google Cloud Storage, Azure Blob Storage, Azure SQL. |
 | storageType | string | any | Describes the internal storage type, such as files, sql, events, MQTT. |
 | containerTool | string | any | A name of the package manager, container or infrastructure as code tool. |
 | format | string  | any |  Type of script language.|
