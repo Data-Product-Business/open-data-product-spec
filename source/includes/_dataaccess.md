@@ -5,7 +5,7 @@ Data access is the authorised ability to retrieve, edit, copy or transfer data f
 > Example of Data Access component usage:
 
 ```javascript
-  
+ 
   "dataAccess" {
     "type": "API",
     "specification": "OAS",
