@@ -927,7 +927,7 @@ The JSON examples are not based on any real data product, but exemplify the usag
     <span class="dl">"</span><span class="s2">outputPorttype</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">authenticationMethod</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAuth</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">JSON</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">GraphQL</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://192.168.10.1/petstore.json</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">documentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/petshop</span><span class="dl">"</span>
   <span class="p">}</span>
@@ -957,8 +957,8 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <tr>
 <td>authenticationMethod</td>
 <td>string</td>
-<td>One of: API key, HTTP Basic, OAuth, No authentication</td>
-<td>Data access authentication method type.</td>
+<td>ant</td>
+<td>Data access authentication method type, such as API key, HTTP Basic, OAuth, No authentication.</td>
 </tr>
 <tr>
 <td>specification</td>
@@ -969,8 +969,8 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <tr>
 <td>format</td>
 <td>string</td>
-<td>One of: JSON, XML, plain text</td>
-<td>File format.</td>
+<td>any</td>
+<td>Data access file format type, such as JSON, XML, GraphQL, plain text.</td>
 </tr>
 <tr>
 <td>specsURL</td>
