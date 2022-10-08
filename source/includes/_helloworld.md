@@ -69,6 +69,7 @@ You'll find a complete machine-readbale example of a data product from the right
 	},
 	"dataAccess": {
 		"type": "API",
+    "authenticationMethod": "OAuth",
 		"specification": "OAS",
 		"format": "JSON",
 		"specURL": "https://swagger.com/petstore.json",
