@@ -11,7 +11,7 @@ Data access is the authorised ability to retrieve, edit, copy or transfer data f
     "outputPorttype": "API",
     "authenticationMethod": "OAuth",
     "specification": "OAS",
-    "format": "JSON",
+    "format": "GraphQL",
     "specURL": "https://192.168.10.1/petstore.json",
     "documentationURL": "http://192.168.10.1/petshop"
   }
@@ -22,8 +22,8 @@ Data access is the authorised ability to retrieve, edit, copy or transfer data f
 |---|---|---|---|
 | interface | element | - | Reference to the ability to use data. |
 | outputPorttype | string | One of: API, SQL, sFTP, gRPC  | 	Type of data access. |
-| authenticationMethod | string | One of: API key, HTTP Basic, OAuth, No authentication  | Data access authentication method type. |
+| authenticationMethod | string | ant  | Data access authentication method type, such as API key, HTTP Basic, OAuth, No authentication. |
 | specification | string | any  | Type of the data access specification. |
-| format | string | One of: JSON, XML, plain text | 	File format. |
+| format | string | any | 	Data access file format type, such as JSON, XML, GraphQL, plain text. |
 | specsURL | URL | Valid URL  | 	The URL of the specification. |
 | documentationURL | URL | Valid URL  | The URL of the data access documentation. |
