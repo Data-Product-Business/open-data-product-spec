@@ -32,7 +32,7 @@ DataOps Object's purpose is enabling building, deploying, and running the data p
 | storageType | string | any | Describes the internal storage type, such as files, sql, events, MQTT. |
 | containerTool | string | any | A name of the package manager, container or infrastructure as code tool. |
 | format | string  | any |  Type of script language.|
-| status | string  | Options: announcement, draft, development, testing, acceptance, production, sunset, retired. |
+| status | string  | Options: announcement, draft, development, testing, acceptance, production, sunset, retired. | Development status. |
 | scriptURL | URL | Valid URL  | 	The URL of the deployment script. |
 | deploymentDocumentationURL | URL | Valid URL  | 	The URL of the deployment documentation. |
 | hashType| string | One of: SHA-1, SHA-2, SHA-3 | Type of secure hash algorithm for checksum. |
