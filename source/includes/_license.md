@@ -33,7 +33,6 @@ The data product may be exploited e.g. by licensing its use and exploitation to 
          "applicableLaws": "This license shall be interpreted, construed and enforced in accordance with the law of Finland, Incl. Copyright Act 404/1961."
    }
   }
-}
 
   
 ```
