@@ -367,10 +367,7 @@
               </ul>
           </li>
           <li>
-            <a href="#dataops" class="toc-h1 toc-link" data-title="DataOps">DataOps</a>
-          </li>
-          <li>
-            <a href="#data-access" class="toc-h1 toc-link" data-title="Data Access">Data Access</a>
+            <a href="#data-pipeline" class="toc-h1 toc-link" data-title="Data Pipeline">Data Pipeline</a>
           </li>
           <li>
             <a href="#data-sla" class="toc-h1 toc-link" data-title="Data SLA">Data SLA</a>
@@ -815,8 +812,8 @@ The JSON examples are not based on any real data product, but exemplify the usag
 </tbody></table>
 
 <p><button data-tf-popup="Q1Zo6wE5" data-tf-iframe-props="title=Customer Feedback Survey" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#FA6B05;color:#000000;font-size:17px;border-radius:3px;padding:0 28px;font-weight:bold;height:42.5px;cursor:pointer;line-height:42.5px;text-align:center;margin:0;text-decoration:none;">Raise an issue</button><script src="//embed.typeform.com/next/embed.js"></script></p>
-<h1 id='dataops'>DataOps</h1>
-<p>DataOps is a process whereby a data product pipeline deployment method is defined. Usually the deployment script contains the logic of the individual steps as well as the code chaining the steps together.</p>
+<h1 id='data-pipeline'>Data Pipeline</h1>
+<p>Data Pipeline is a process whereby a data product pipeline deployment method is defined. Usually the deployment script contains the logic of the individual steps as well as the code chaining the steps together.</p>
 
 <p>DataOps Object&#39;s purpose is enabling building, deploying, and running the data product’s code, and storing and giving access to data and metadata. This priciple has been adopted from the <a href="https://towardsdatascience.com/what-is-a-data-mesh-and-how-not-to-mesh-it-up-210710bb41e0">Data Mesh</a>.</p>
 
@@ -824,7 +821,7 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <p>Example of DataOps component usage:</p>
 </blockquote>
 <div class="highlight"><pre class="highlight javascript tab-javascript"><code>
-<span class="dl">"</span><span class="s2">dataOps</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+<span class="dl">"</span><span class="s2">dataPipeline</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
   <span class="dl">"</span><span class="s2">infrastructure</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
     <span class="dl">"</span><span class="s2">platform</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">storageTechnology</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure SQL</span><span class="dl">"</span><span class="p">,</span>
@@ -836,6 +833,14 @@ The JSON examples are not based on any real data product, but exemplify the usag
     <span class="dl">"</span><span class="s2">deploymentDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/datapipeline</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">hashType</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">SHA-2</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">checksum</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921</span><span class="dl">"</span>
+  <span class="p">}</span>
+  <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">outputPorttype</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">authenticationMethod</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAuth</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">GraphQL</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://192.168.10.1/petstore.json</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">documentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/petshop</span><span class="dl">"</span>
   <span class="p">}</span>
 <span class="p">}</span>
 
@@ -914,36 +919,8 @@ The JSON examples are not based on any real data product, but exemplify the usag
 <td>any</td>
 <td>Script checksum.</td>
 </tr>
-</tbody></table>
-<h1 id='data-access'>Data Access</h1>
-<p>Data access is the authorised ability to retrieve, edit, copy or transfer data from IT systems.</p>
-
-<blockquote>
-<p>Example of Data Access component usage:</p>
-</blockquote>
-<div class="highlight"><pre class="highlight javascript tab-javascript"><code>
- <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
-  <span class="dl">"</span><span class="s2">interface</span><span class="dl">"</span> <span class="p">{</span>
-    <span class="dl">"</span><span class="s2">outputPorttype</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">authenticationMethod</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAuth</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">specification</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAS</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">format</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">GraphQL</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">specURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">https://192.168.10.1/petstore.json</span><span class="dl">"</span><span class="p">,</span>
-    <span class="dl">"</span><span class="s2">documentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/petshop</span><span class="dl">"</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-</code></pre></div>
-<table><thead>
 <tr>
-<th><div style="width:150px">Element name</div></th>
-<th>Type</th>
-<th>Options</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>interface</td>
+<td>dataAccess</td>
 <td>element</td>
 <td>-</td>
 <td>Reference to the ability to use data.</td>
@@ -1233,7 +1210,6 @@ The JSON examples are not based on any real data product, but exemplify the usag
          <span class="dl">"</span><span class="s2">applicableLaws</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">This license shall be interpreted, construed and enforced in accordance with the law of Finland, Incl. Copyright Act 404/1961.</span><span class="dl">"</span>
    <span class="p">}</span>
   <span class="p">}</span>
-<span class="p">}</span>
 
 
 </code></pre></div>
@@ -1621,7 +1597,7 @@ The JSON examples are not based on any real data product, but exemplify the usag
         <span class="p">}</span>
     <span class="p">],</span>
 
-    <span class="dl">"</span><span class="s2">dataOps</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">dataPipeline</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
         <span class="dl">"</span><span class="s2">infrastructure</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
             <span class="dl">"</span><span class="s2">platform</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure</span><span class="dl">"</span><span class="p">,</span>
             <span class="dl">"</span><span class="s2">storageTechnology</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Azure SQL</span><span class="dl">"</span><span class="p">,</span>
@@ -1633,8 +1609,7 @@ The JSON examples are not based on any real data product, but exemplify the usag
             <span class="dl">"</span><span class="s2">deploymentDocumentationURL</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">http://192.168.10.1/datapipeline</span><span class="dl">"</span><span class="p">,</span>
             <span class="dl">"</span><span class="s2">hashType</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">SHA-2</span><span class="dl">"</span><span class="p">,</span>
             <span class="dl">"</span><span class="s2">checksum</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921</span><span class="dl">"</span>
-        <span class="p">}</span>
-    <span class="p">},</span>
+        <span class="p">},</span>
     <span class="dl">"</span><span class="s2">dataAccess</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
         <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">API</span><span class="dl">"</span><span class="p">,</span>
     <span class="dl">"</span><span class="s2">authenticationMethod</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">OAuth</span><span class="dl">"</span><span class="p">,</span>
@@ -1728,6 +1703,7 @@ The JSON examples are not based on any real data product, but exemplify the usag
         <span class="dl">"</span><span class="s2">ratingCount</span><span class="dl">"</span><span class="p">:</span> <span class="mi">1245</span><span class="p">,</span>
         <span class="dl">"</span><span class="s2">slogan</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span><span class="p">,</span>
         <span class="dl">"</span><span class="s2">parentOrganization</span><span class="dl">"</span><span class="p">:</span> <span class="dl">""</span>
+    <span class="p">}</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div><h1 id='terms-used'>Terms used</h1>
