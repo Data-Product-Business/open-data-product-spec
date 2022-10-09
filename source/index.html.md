@@ -13,8 +13,7 @@ toc_footers:
 
 includes:
   - pricing
-  - dataops
-  - dataaccess
+  - datapipeline
   - sla
   - license
   - provider
