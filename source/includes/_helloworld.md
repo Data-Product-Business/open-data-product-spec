@@ -53,7 +53,7 @@ You'll find a complete machine-readbale example of a data product from the right
 		}
 	],
 
-	"dataOps": {
+	"dataPipeline": {
 		"infrastructure": {
 			"platform": "Azure",
 			"storageTechnology": "Azure SQL",
@@ -65,8 +65,7 @@ You'll find a complete machine-readbale example of a data product from the right
 			"deploymentDocumentationURL": "http://192.168.10.1/datapipeline",
 			"hashType": "SHA-2",
 			"checksum": "7b7444ab8f5832e9ae8f54834782af995d0a83b4a1d77a75833eda7e19b4c921"
-		}
-	},
+		},
 	"dataAccess": {
 		"type": "API",
     "authenticationMethod": "OAuth",
@@ -160,6 +159,7 @@ You'll find a complete machine-readbale example of a data product from the right
 		"ratingCount": 1245,
 		"slogan": "",
 		"parentOrganization": ""
+	}
 	}
 }
 ```
