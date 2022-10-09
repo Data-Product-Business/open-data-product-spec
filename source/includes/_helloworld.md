@@ -72,7 +72,7 @@ You'll find a complete machine-readbale example of a data product from the right
 		"specification": "OAS",
 		"format": "JSON",
 		"specURL": "https://swagger.com/petstore.json",
-		"dataAccessDocumentationURL": "http://192.168.10.1/test/docs/dataaccess"
+		"documentationURL": "http://192.168.10.1/test/docs/dataaccess"
 	},
 	"SLA": {
 		"updateFrequency": {
