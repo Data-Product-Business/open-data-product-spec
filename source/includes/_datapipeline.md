@@ -2,7 +2,7 @@
 
 Data Pipeline is a process whereby a data product pipeline deployment method is defined. Usually the deployment script contains the logic of the individual steps as well as the code chaining the steps together.
 
-Data Pipeline **OBJECT** enables building, deploying, and running the data product’s code, and storing and giving access to data and metadata. This priciple has been adopted from the [Data Mesh](https://towardsdatascience.com/what-is-a-data-mesh-and-how-not-to-mesh-it-up-210710bb41e0).
+Data Pipeline **OBJECT** defines building, deploying, and running the data product’s code, and storing and giving access to data and metadata. This priciple has been adopted from the [Data Mesh](https://towardsdatascience.com/what-is-a-data-mesh-and-how-not-to-mesh-it-up-210710bb41e0).
 
 > Example of Data Pipeline component usage:
 
