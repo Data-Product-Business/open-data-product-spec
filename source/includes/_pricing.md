@@ -78,7 +78,7 @@ Supported pricing models include:
 > Example of Pricing component usage with some of the optional elements and attributes:
 
 ```javascript
-   "pricing"{
+   "pricing" [ {
       {
          "name": "Premium subscription 1 year",
          "priceCurrency": "EUR",
@@ -95,6 +95,7 @@ Supported pricing models include:
          "valueAddedTaxIncluded": false
        }
    }
+   ]
 ```
 
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
