@@ -24,7 +24,7 @@ Supported pricing models include:
 > Example of Pricing component usage with manadatory elements and attributes:
 
 ```javascript
-   "pricing":{
+   "pricing": [ {
       {
          "name": "Premium Package Monthly",
          "priceCurrency": "EUR",
@@ -58,6 +58,7 @@ Supported pricing models include:
          "maxTransactionQuantity": "unlimited"
       }
    }
+   ]
 ```
 
 | <div style="width:150px">Element name</div>   | Type  | Options  | Description  |
