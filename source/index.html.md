@@ -46,6 +46,11 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 
 * <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec">https://github.com/Open-Data-Product-Initiative/open-data-product-spec</a>
 
+**Development version:**
+
+The next version of the specification is in development. You can view the coming spec from here <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec">https://github.com/Open-Data-Product-Initiative/open-data-product-spec</a>
+
+
 **Editors:**
 
 * <a href="https://www.linkedin.com/in/jarkkomoilanen/">Jarkko Moilanen</a>
