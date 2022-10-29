@@ -48,7 +48,7 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 
 **Development version:**
 
-The next version of the specification is in development. You can view the coming spec from here <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec">https://github.com/Open-Data-Product-Initiative/open-data-product-spec</a>
+The next version of the specification is in development. You can view the coming spec from here <a href="https://open-data-product-initiative.github.io/open-data-product-spec-1.1dev/">https://open-data-product-initiative.github.io/open-data-product-spec-1.1dev/</a>
 
 
 **Editors:**
