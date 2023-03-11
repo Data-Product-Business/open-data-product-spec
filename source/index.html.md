@@ -41,13 +41,13 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 
 **Published 4th Feb 2022**
 
-**Source:**
+**Latest production version is 2.0:**
 
-* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec-1.0">https://github.com/Open-Data-Product-Initiative/open-data-product-spec-1.0</a>
+* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec-2.0">https://github.com/Open-Data-Product-Initiative/open-data-product-spec-2.0</a>
 
 **Development version:**
 
-The next version of the specification is in development. You can view the coming spec from here <a href="https://open-data-product-initiative.github.io/open-data-product-spec-2.0/">https://open-data-product-initiative.github.io/open-data-product-spec-2.0/</a>
+The next version of the specification is in development. You can view the coming spec from here <a href="https://open-data-product-initiative.github.io/open-data-product-spec-dev">https://open-data-product-initiative.github.io/open-data-product-spec-dev/</a>
 
 
 **Editors:**
