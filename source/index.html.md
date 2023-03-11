@@ -42,9 +42,9 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 
 **Published 4th Feb 2022**
 
-**Latest development version source:**
+**Source:**
 
-* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec-dev">https://github.com/Open-Data-Product-Initiative/open-data-product-spec-dev</a>
+* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec-1.0">https://github.com/Open-Data-Product-Initiative/open-data-product-spec-1.0</a>
 
 **Development version:**
 
