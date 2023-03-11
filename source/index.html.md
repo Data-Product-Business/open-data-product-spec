@@ -42,13 +42,13 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 
 **Published 4th Feb 2022**
 
-**Latest version source:**
+**Latest development version source:**
 
-* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec">https://github.com/Open-Data-Product-Initiative/open-data-product-spec</a>
+* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec-dev">https://github.com/Open-Data-Product-Initiative/open-data-product-spec-dev</a>
 
 **Development version:**
 
-The next version of the specification is in development. You can view the coming spec from here <a href="https://open-data-product-initiative.github.io/open-data-product-spec-1.1dev/">https://open-data-product-initiative.github.io/open-data-product-spec-1.1dev/</a>
+The next version of the specification is in development. You can view the coming spec from here <a href="https://open-data-product-initiative.github.io/open-data-product-spec-2.0/">https://open-data-product-initiative.github.io/open-data-product-spec-2.0/</a>
 
 
 **Editors:**
@@ -58,12 +58,12 @@ The next version of the specification is in development. You can view the coming
 
 **Participate:**
 
-* [Raise an issue in Github](https://github.com/Data-Product-Business/open-data-product-spec/issues/new/)
+* [Raise an issue in Github](https://github.com/Open-Data-Product-Initiative/open-data-product-spec-1.0/issues)
 * [Raise an issue in service designed for average mortals](https://v90nkeo0oq0.typeform.com/to/Q1Zo6wE5) 
 
 ## Introduction
 
-The Open Data Product Specification is a vendor-neutral, open-source machine-readable data product metadata model. It defines the objects and attributes as well as the structure of digital data products. The work is based on existing standards (schema.org), best practices and emerging concepts like Data Mesh. The reasoning is that we reuse and proudly copy instead of reinventing the wheel. More detailed information of the origin can be found from the [Open Data Product Specification homepage](https://www.dataproductbusiness.com/open-data-product-specification). 
+The Open Data Product Specification is a vendor-neutral, open-source machine-readable data product metadata model. It defines the objects and attributes as well as the structure of digital data products. The work is based on existing standards (schema.org), best practices and emerging concepts like Data Mesh. The reasoning is that we reuse and proudly copy instead of reinventing the wheel. More detailed information of the origin can be found from the [Open Data Product Specification homepage](https://opendataproducts.org). 
 
 The specification has been designed with four major aspects of the data product in mind: 1) technical (infrastructure & access), 2) business (pricing & plans), 3) legal (licensing & IPR), and 4) ethical (privacy & mydata). The four aspects are described in 5 elements, which contain attributes and other elements. 
 
