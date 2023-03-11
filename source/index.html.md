@@ -30,7 +30,7 @@ meta:
     content: The Open Data Product Specification is a vendor-neutral, open-source machine-readable data product metadata model. It defines the objects and attributes as well as the structure of digital data products. 
 ---
 
-# OPEN DATA PRODUCT SPECIFICATION
+# OPEN DATA PRODUCT SPECIFICATION 1.0
 
 
 ## Version 1.0
