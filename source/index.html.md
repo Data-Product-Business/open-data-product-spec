@@ -43,12 +43,8 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 
 **Latest production version is 2.0:**
 <div style="box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;">
-* <a href="https://github.com/Open-Data-Product-Initiative/open-data-product-spec-2.0">https://github.com/Open-Data-Product-Initiative/open-data-product-spec-2.0</a>
+* <a href="https://open-data-product-initiative.github.io/open-data-product-spec-2.0/">https://open-data-product-initiative.github.io/open-data-product-spec-2.0/</a>
 </div>
-
-**Development version:**
-
-The next version of the specification is in development. You can view the coming spec from here <a href="https://open-data-product-initiative.github.io/open-data-product-spec-dev">https://open-data-product-initiative.github.io/open-data-product-spec-dev/</a>
 
 
 **Editors:**
