@@ -42,8 +42,8 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 **Published 4th Feb 2022**
 
 **Latest production version is 2.0:**
-<div style="box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;">
-* <a href="https://open-data-product-initiative.github.io/open-data-product-spec-2.0/">https://open-data-product-initiative.github.io/open-data-product-spec-2.0/</a>
+<div style="box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;margin:20px;padding:40px;">
+<a href="https://open-data-product-initiative.github.io/open-data-product-spec-2.0/">https://open-data-product-initiative.github.io/open-data-product-spec-2.0/</a>
 </div>
 
 
