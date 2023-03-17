@@ -32,6 +32,10 @@ meta:
 
 # OPEN DATA PRODUCT SPECIFICATION 1.0
 
+<div style="width:500px; box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;margin:20px;padding:40px;">
+<h3>Note! You are looking at the old version. Latest production version is 2.0:</h3>
+<a href="https://open-data-product-initiative.github.io/open-data-product-spec-2.0/">https://open-data-product-initiative.github.io/open-data-product-spec-2.0/</a>
+</div>
 
 ## Version 1.0
 
@@ -42,10 +46,7 @@ The specification is shared under <a href='https://creativecommons.org/licenses/
 **Published 4th Feb 2022**
 
 
-<div style="width:500px; box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;margin:20px;padding:40px;">
-<h3>Latest production version is 2.0:</h3>
-<a href="https://open-data-product-initiative.github.io/open-data-product-spec-2.0/">https://open-data-product-initiative.github.io/open-data-product-spec-2.0/</a>
-</div>
+
 
 
 **Editors:**
